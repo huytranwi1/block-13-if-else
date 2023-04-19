@@ -2,7 +2,7 @@
 
 // if our value is falsy we will print false
 
-// we know that :
+// we know that if falsy it will print the following:
                 // non-empty string is true
 
                 // false will need to print "The boolean value false is falsy"
@@ -15,36 +15,30 @@
 
                 // "" will print "The empty string is falsy (the only falsy string)"
 
-// will need to have an if/else conditional statement
-// since we need to print multiple statement, we will need multiple if/else
-// and we will need multiple function as well
+// in this case we will create a variable take in a values that the user can change the input value then print out the statement.
 
-let truthy = "I am string"
-if(truthy) {
+ const inputValue = x;
+
+if(inputValue === "I am string") {
     console.log("true")
-}
+ }
 
-let falsy = false;
-if(falsy) {
-    console.log("The boolean value false is falsy")
-}
+// if(inputValue === false) {
+//     console.log("The boolean value false is falsy")
+// }
 
-let falsy = null;
-if(falsy) {
-    console.log ("The null value is falsy")
-}
+// if(inputValue === null) {
+//     console.log ("The null value is falsy")
+// }
 
-let falsy = undefined;
-if(falsy) {
-    console.log("undefined is falsy")
-}
+// if(inputValue === undefined) {
+//     console.log("undefined is falsy")
+// }
 
-let falsy = 0;
-if(falsy) {
-    console.log("The number 0 is falsy (the only falsy number)")
-}
+// if(inputValue = 0) {
+//     console.log("The number 0 is falsy (the only falsy number)")
+// }
 
-let falsy = "";
-if("") {
-    console.log("The empty string is falsy (the only falsy string)")
-}
+// if(inputValue == "") {
+//     console.log("The empty string is falsy (the only falsy string)")
+// }
