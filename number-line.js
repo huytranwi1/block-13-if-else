@@ -11,11 +11,11 @@
                         // sum + " is greater than 100";
 
 
-let num1 = x;
+// let num1 = x;
 
-let num2 = y;
+// let num2 = y;
 
-let sum = num1 + num2;
+// let sum = num1 + num2;
 
 // we will run 2 test
 
@@ -23,6 +23,8 @@ let num1 = 50;
 let num2 = 51;
 let sum = num1 + num2;
 
-if (num1 === 50 && num2 === 51) {
-    console.log (sum + "is greater than 100")
+if (sum > 100) {
+    console.log(sum + " " + "is greater than 100")
+} else {
+    console.log(sum + " " + "is wrong")
 }

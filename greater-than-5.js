@@ -3,12 +3,12 @@
 
 // we will set up two variable with a given input values
 
-// we will set up two paramento using logical operature to test if both value are greater or equal to 5
+// we will set up two parametor using logical operature to test if both value are greater or equal to 5
 
 // first, set us two function with two variable and two values
 
-let num1 = x;
-let num2 = y;
+// let num1 = x;
+// let num2 = y;
 
 // given inputs
 

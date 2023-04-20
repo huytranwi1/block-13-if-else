@@ -15,30 +15,14 @@
 
                 // "" will print "The empty string is falsy (the only falsy string)"
 
-// in this case we will create a variable take in a values that the user can change the input value then print out the statement.
+// in this case we will create a function that have a variable take in a values that the user can change the input value then print out the statement depend on true or false.
 
- const inputValue = x;
+// user can input the given value in the function, then console log should give the answer base on true or false
+const inputValue = "I am a string";
 
-if(inputValue === "I am string") {
+if(inputValue) {
     console.log("true")
- }
+} else {
+    console.log("The boolean value is falsy")
+}
 
-// if(inputValue === false) {
-//     console.log("The boolean value false is falsy")
-// }
-
-// if(inputValue === null) {
-//     console.log ("The null value is falsy")
-// }
-
-// if(inputValue === undefined) {
-//     console.log("undefined is falsy")
-// }
-
-// if(inputValue = 0) {
-//     console.log("The number 0 is falsy (the only falsy number)")
-// }
-
-// if(inputValue == "") {
-//     console.log("The empty string is falsy (the only falsy string)")
-// }
